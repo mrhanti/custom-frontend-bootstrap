@@ -338,9 +338,5 @@ module.exports = function (grunt) {
         'usemin'
     ]);
 
-    grunt.registerTask('default', [
-        'jshint',
-        'test',
-        'build'
-    ]);
+    grunt.registerTask('default', ['server']);
 };
